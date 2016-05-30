@@ -6,7 +6,7 @@
 <title>{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }}{% endif %}  | {{ site.site_title }}</title>
 <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen">
-{% if page.layout == "doc" %}
+{% if page.layout == "doc" or layout == "doc" %}
   <link rel="stylesheet" type="text/css" href="../css/syntax.css">
   <script type="text/javascript" src="../js/jquery.navgoco.min.js"></script>
   <script type="text/javascript" src="../js/anchor.min.js"></script>
